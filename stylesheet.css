@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-size: .85em;
+}
+
+.top_image {
+  width: 100%;
+  display: block;
+}
+
+.main_heading {
+  margin: 0;
+  padding-top: .5em;
+  padding-bottom: 1em;
+  background-color: rgb(221, 231, 241);
+  text-align:center;
+  font-family: serif;
+  font-weight:bold;
+  letter-spacing: 5px;
+  font-size: 28px;
+  font-variant: small-caps;
+  font-style: italic;
+}
+
+.main_heading_li_sizing {
+  padding-left: 1em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.main_heading_text_color {
+  color: rgb(0,0,0);
+}
+
+.nav_styling {
+  font-family: Serif;
+  padding: .02px;
+  background-color: rgb(249, 232, 204);
+  box-shadow: 0 5px 2px 0 rgb(211, 211, 211);
+}
+
+.nav_styling a:link {
+  color: rgb(0, 0, 0);
+  padding: 12px;
+  font-weight: 475;
+}
+
+.section_indent {
+  padding-left: 30px;
+}
+
+.no_bullets {
+  list-style: none;
+}
+
+.horizontal_list {
+  display: inline;
+}
+
+.table_styling {
+  border-collapse: collapse;
+  border: solid rgb(211, 211, 211);
+}
+
+.thead_styling {
+  border-bottom: solid rgb(211, 211, 211);
+}
+
+/*.th_styling {
+  font-weight: bold;
+}*/
+
+.td_styling {
+  font-weight: normal;
+  padding-left: .5em;
+  padding-right: 1em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+}
+
+.thead_name_styling {
+  font-weight: bold;
+  text-align: center;
+}
+
+.thead_styling {
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(146, 132, 189);
+}
+
+a:hover, td:hover {
+  background-color: rgb(221, 165, 65);
+}
+
+.flavor.active {
+  /* TODO make highlight persist using javascript */
+  background-color: rgb(221, 165, 65);
+}
+
+footer p {
+  border-top: solid rgb(170, 170, 170);
+  padding-top: 1em;
+  text-align: right;
+  font-weight: bold;
+  color: rgb(170, 170, 170);
+}
